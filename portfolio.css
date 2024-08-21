@@ -1,0 +1,130 @@
+h1{
+    color:black;
+    font-size: medium;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.nav{
+    border: 2px solid white;
+    width: 300px;
+    display:flex ;
+    justify-content: space-around;
+    padding-top: 5px;
+    
+}
+.contact{
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 3px 3px;
+}
+.nav-content{
+    display: flex;
+    justify-content:space-between; 
+    align-items:center ;
+    
+}
+#sp{
+    display:flex;
+    flex-direction:row;
+justify-content: center;
+padding-top: 100px;
+  padding-right: 30px;
+  padding-bottom: 100px;
+  padding-left: 80px;
+  background-color: black;
+  color: white;
+}
+img{
+border-radius: 50%;
+    height: max-content;
+    width: 150px;
+}
+.containerss {
+    /* flex-basis: 40%;*/
+     display:flex;
+     max-width:980px;
+     margin:auto;
+     align-items:center;
+   }
+   .container1ss{padding:100px;
+    margin-top: -95px;
+    margin-left: -50px  ;
+    
+}
+.para{
+    margin-top: -30px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+.column {
+    background-color: #cfcfcf;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+.column img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.column h2 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+.column p {
+    font-size: 1em;
+    color: #333;
+}
+
+.skills-section {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.skills-section h1 {
+    text-align: center;
+  font-size: medium;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-column {
+    width: 35%;
+}
+
+.skills-column h2 {
+    font-size: medium;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.skill {
+    margin-bottom: 30px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: #007bff;
+    height: 10px;
+
+}
+#contact h1{
+    font-size: medium;
+}
+
+
